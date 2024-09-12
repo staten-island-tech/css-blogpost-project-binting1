@@ -1,11 +1,20 @@
+html, 
+body,
+*{
+    font-size: 16px;
+    padding:5;
+    margin:10;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:aqua;
+    background-color:beige;
 }
 li {
-    color:aliceblue;
+    color:burlywood;
 }
 .first {
-    color:antiquewhite;
+    color:black;
 }
 #second {
     color:blue; 
@@ -14,6 +23,28 @@ h1{
     font-size:32px;
     text-align: center;
 }
-img{
-    width:50vw;
+
+h2{
+    text-align: center;
+}
+
+
+.post-img{
+    width:500px;
+    height:70%;
+    /*object fit fixes aspect ratoi of image if needed*/
+    object-fit:cover;
+}
+
+.post {
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    margin:10px auto;
+    padding: 5px;
+}
+
+.post-desc {
+    font-size:22px;
+    text-align:center;
 }
