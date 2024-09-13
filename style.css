@@ -30,12 +30,13 @@ h2{
 
 
 .post-img{
-    text-align: center;
     width:500px;
-    height:70%;
+    height:50%;
     /*object fit fixes aspect ratoi of image if needed*/
     object-fit:cover;
-
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .post {
@@ -43,7 +44,7 @@ h2{
     width: 800px;
     background-color: white;
     margin:10px auto;
-    padding: 5px;
+   
 }
 
 .post-desc {
