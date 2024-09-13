@@ -30,10 +30,12 @@ h2{
 
 
 .post-img{
+    text-align: center;
     width:500px;
     height:70%;
     /*object fit fixes aspect ratoi of image if needed*/
     object-fit:cover;
+
 }
 
 .post {
