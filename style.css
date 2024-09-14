@@ -2,8 +2,8 @@ html,
 body,
 *{
     font-size: 16px;
-    padding:5;
-    margin:10;
+    padding: 0;
+    margin:5;
     box-sizing: border-box;
 }
 
@@ -13,6 +13,7 @@ body {
 li {
     color:burlywood;
 }
+
 .first {
     color:black;
 }
@@ -26,12 +27,12 @@ h1{
 
 h2{
     text-align: center;
+    padding: 12;
 }
 
-
 .post-img{
-    width:500px;
-    height:50%;
+    width:300px;
+    height:60%;
     /*object fit fixes aspect ratoi of image if needed*/
     object-fit:cover;
     display: block;
@@ -40,14 +41,15 @@ h2{
 }
 
 .post {
-    height: 600px;
-    width: 800px;
+    height: 300px;
+    width: 400px;
     background-color: white;
     margin:10px auto;
    
 }
 
 .post-desc {
-    font-size:22px;
+    font-size:18px;
     text-align:center;
+    margin:auto;
 }
